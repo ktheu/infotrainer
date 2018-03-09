@@ -1,0 +1,11 @@
+def ggt (a , b):
+        while a != b :
+                if ( a > b ):
+                        a = a - b
+                else :
+                        b = b - a
+        return a
+
+a=int(input("this is a"))
+b=int(input("this is b"))
+print(ggt(a,b))
