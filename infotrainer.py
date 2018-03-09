@@ -3,7 +3,7 @@ Neue Funktion mit Abkürzung in Klammern an die Liste
 eingaben anhängen
 """
 eingaben = []   # für jede Anwendung ein append
-eingaben.append('Huffman')
+eingaben.append('Euklidischer Algorithmus')
 
 def help_():
     print('Verfügbare Kommandos (Abkürzung in Klammern):')
