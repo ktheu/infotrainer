@@ -1,5 +1,9 @@
+from random import randint
+
 def Collatz_ui():
-    x = int(input("Bitte eine Zahl eingeben:" ))
+    x=randint(10, 100)
+    print("Notiere die Folge der Zahlen, die während des Collatz-Algorithmus berechnet werden und das Ergebnis des Algorithmus für die folgende Eingabe:",x)
+    input("Press Enter to continue...")
     z=0
     print("Folge der Zahlen:",end=" ")
     while x!= 1:
