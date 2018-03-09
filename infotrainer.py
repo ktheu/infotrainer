@@ -4,6 +4,7 @@ eingaben anhängen
 """
 eingaben = []   # für jede Anwendung ein append
 eingaben.append('Huffman')
+eingaben.append('Collatz')
 
 def help_():
     print('Verfügbare Kommandos (Abkürzung in Klammern):')
