@@ -1,7 +1,7 @@
 def AllToDec_ui():
-    i = int(input('Ausgangsystem(z.B. Octal 8)'))
-    zahl = input('Ausgangszahl:')
-    input('Summe an Decimal zahlen: ')
+    i = int(input('Ausgangsystem (z.B. 8 für Oktal) '))
+    zahl = input('Ausgangszahl: ')
+    input('Dezimalzahl: ')
     print(All2dec(zahl, i))
 
 
