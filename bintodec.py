@@ -16,10 +16,6 @@ def bintodec_calc(x):
     return aus
 def bintodec_ui():
     x = machebinaer()
-    print ("wandle die Binärzahl in eine Dezimalzahl um:", x)
+    print ("Wandle die Binärzahl in eine Dezimalzahl um:", x)
     input()
     print("Die Dezimalzahl ist",bintodec_calc(x))
-
-
-bintodec_ui()
-
