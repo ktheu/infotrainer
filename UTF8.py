@@ -14,7 +14,7 @@ def UTF8_ui():
 
     input('Codepoint Binär: ')
     binaer_str = getBinaer_str(dezimal)
-    print('Codepoint Hexadezimal: ' + binaer_str)
+    print('Codepoint Binär: ' + binaer_str)
     input('Maske:')
 
     if int(dezimal) < int('007F', 16):
