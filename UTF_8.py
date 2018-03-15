@@ -1,4 +1,4 @@
-def UTF8_ui():
+def UTF_8_ui():
     print('UTF-8 Masken:')
     print('     0000 -      007F: 0xxxxxxx')
     print('     0080 -      07FF: 110xxxxx 10xxxxxx')
@@ -14,7 +14,7 @@ def UTF8_ui():
 
     input('Codepoint Binär: ')
     binaer_str = getBinaer_str(dezimal)
-    print('Codepoint Hexadezimal: ' + binaer_str)
+    print('Codepoint Binär: ' + binaer_str)
     input('Maske:')
 
     if int(dezimal) < int('007F', 16):
@@ -66,11 +66,11 @@ def getMask(dezimal, mask):
 
 def getBinaer_str(dezimal):
     binaer_str = str(bin(int(dezimal)))[2:]
-    i = 4
-    while i < len(binaer_str):
+    i = len(binaer_str)-4
+    while i > 0:
         binaer_str = binaer_str[:i] + ' ' + binaer_str[i:]
-        i += 5
+        i -= 4
     return binaer_str
 
 if __name__ == '__main__':
-    UTF8_ui()
+    UTF_8_ui()
