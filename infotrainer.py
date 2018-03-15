@@ -4,11 +4,9 @@ eingaben anhängen
 """
 eingaben = []   # für jede Anwendung ein append
 eingaben.append('Huffman')
-<<<<<<< HEAD
 eingaben.append('UTF8')
-=======
 eingaben.append('bintodec')
->>>>>>> pr/24
+
 
 def help_():
     print('Verfügbare Kommandos (Abkürzung in Klammern):')
