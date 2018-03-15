@@ -5,7 +5,7 @@ eingaben anhängen
 eingaben = []
 eingaben.append('summe(sum)')  # für jede Anwendung eine Zeile
 eingaben.append('Huffman')
-eingaben.append('UTF_8')
+eingaben.append('UTF8')
 eingaben.append('AllToDec(A2D)')
 
 def help_():

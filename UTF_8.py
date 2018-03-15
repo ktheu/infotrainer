@@ -1,4 +1,4 @@
-def UTF_8_ui():
+def UTF8_ui():
     print('UTF-8 Masken:')
     print('     0000 -      007F: 0xxxxxxx')
     print('     0080 -      07FF: 110xxxxx 10xxxxxx')
@@ -73,4 +73,4 @@ def getBinaer_str(dezimal):
     return binaer_str
 
 if __name__ == '__main__':
-    UTF_8_ui()
+    UTF8_ui()
