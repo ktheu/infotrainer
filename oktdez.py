@@ -20,5 +20,6 @@ def berechnung():
 def oktdez_ui():
     i_rev, summe = berechnung()
     print("Wandle die Oktalzahl in eine Dezimalzahl um: ",i_rev[::-1])
+    input()
     output = "Die Dezimalzahl ist %s *1 + %s *8 + %s *64 + %s *512 %s *4096 = %s " %(i_rev[0],i_rev[1],i_rev[2],i_rev[3],i_rev[4],summe)
     print(output)
