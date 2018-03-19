@@ -10,7 +10,7 @@ def berechnung():
 
     i_rev = str(i)
     print("Wandle die Oktalzahl in eine Dezimalzahl um: ",i_rev)
-    input
+    input()
 
     i_rev = i_rev[::-1] # Zahl wird umgedreht
 
