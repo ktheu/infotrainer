@@ -66,10 +66,10 @@ def getMask(dezimal, mask):
 
 def getBinaer_str(dezimal):
     binaer_str = str(bin(int(dezimal)))[2:]
-    i = 4
-    while i < len(binaer_str):
+    i = len(binaer_str)-4
+    while i > 0:
         binaer_str = binaer_str[:i] + ' ' + binaer_str[i:]
-        i += 5
+        i -= 4
     return binaer_str
 
 if __name__ == '__main__':
