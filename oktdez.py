@@ -6,7 +6,10 @@ def berechnung():
     i = "" #Zahl die später erstellt wird
 
     for z in range(0, 5): #Zahl wird erstellt
-        i = i + str(random.randint(0, 7))
+        if z > 0:
+            i = i + str(random.randint(0, 7))
+        else:
+            i = i + str(random.randint(1, 7))
     i_rev = str(i)
     i_rev = i_rev[::-1] # Zahl wird umgedreht
 
