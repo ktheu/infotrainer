@@ -8,6 +8,7 @@ eingaben.append('UTF8')
 eingaben.append('bintodec')
 eingaben.append('AllToDec')
 eingaben.append('oktdez')
+eingaben.append('dezokt')
 
 
 def help_():

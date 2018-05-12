@@ -1,5 +1,11 @@
+import sys
+
+
 def calculator(a):
     a = int(a)
+    if a<0:
+        print("Negative Zahl kann nicht umgewandelt werden!")
+        sys.exit("")
     b = a
     print(a)
     zahl = ""
@@ -10,11 +16,11 @@ def calculator(a):
         print(a, rest)
         if a == 0:
             break
-    print( "Die Oktaldarstellung von ",b," ist ", zahl[::-1])
+    return b, zahl
+
 
 
 
 def dezokt_ui():
-    calculator(input("Bitte eine Dezimalzahl eingeben:"))
-
-dezokt_ui()
+    number, result = calculator(input("Bitte eine Dezimalzahl eingeben:"))
+    print( "Die Oktaldarstellung von ",number," ist ", result[::-1])
