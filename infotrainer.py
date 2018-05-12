@@ -9,6 +9,7 @@ eingaben.append('bintodec')
 eingaben.append('AllToDec')
 eingaben.append('oktdez')
 eingaben.append('dezokt')
+eingaben.append('dezbin')
 
 
 def help_():
