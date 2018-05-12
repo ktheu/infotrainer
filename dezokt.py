@@ -24,6 +24,3 @@ def calculator(a):
 def dezokt_ui():
     number, result = calculator(input("Bitte eine Dezimalzahl eingeben:"))
     print( "Die Oktaldarstellung von ",number," ist ", result[::-1])
-
-
-#Testing Github on Pycharm
