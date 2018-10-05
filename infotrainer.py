@@ -8,7 +8,9 @@ eingaben.append('UTF8')
 eingaben.append('bintodec')
 eingaben.append('AllToDec(A2D)')
 eingaben.append('oktdez')
-
+eingaben.append('modernerEuklid(mE)')
+eingaben.append('ADT_Liste(Liste)')
+ 
 
 def help_():
     print('Verfügbare Kommandos (Abkürzung in Klammern):')
