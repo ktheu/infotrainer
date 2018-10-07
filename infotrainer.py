@@ -10,7 +10,8 @@ eingaben.append('AllToDec(A2D)')
 eingaben.append('oktdez')
 eingaben.append('dezokt')
 eingaben.append('dezbin')
-
+eingaben.append('modernerEuklid(mE)')
+eingaben.append('ADT_Liste(Liste)')
 
 def help_():
     print('Verfügbare Kommandos (Abkürzung in Klammern):')
